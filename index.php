@@ -19,8 +19,11 @@ and open the template in the editor.
         <title>Simple Live Chat Application</title>
     </head>
     <body>
-        <div class="well">
-
+        <div class="container">
+            <div class="col-lg-3" style="margin-top: 100px;">
+                <input type="text" class="form-control" placeholder="Enter Email Address" />
+                <button type="button" class="btn btn-success">Enter</button>
+            </div>
             <div class="chat affix">
                 <div class="clearfix text-center" style="width: 100%; height: 35px; background-color: red; top: 0px; cursor: pointer;">
                     <h5>MESSAGES</h5>
@@ -43,9 +46,9 @@ and open the template in the editor.
                     <div class="affix" style="bottom: 0px;">
                         <form class="form-inline" role="form">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Enter Text"size="27">
+                                <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Enter Message Here"size="27">
                             </div>
-                            <button type="submit" class="btn btn-danger">Sign in</button>
+                            <button type="submit" class="btn btn-danger">Send</button>
                         </form>
                     </div>
                 </div>
