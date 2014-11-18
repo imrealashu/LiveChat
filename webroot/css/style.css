@@ -11,3 +11,12 @@ body *{
     bottom: 10px;
     border: 2px solid #e3e3e3;
 }
+#chat{
+	overflow:hidden;
+	overflow-y:auto;
+}
+#chat ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
